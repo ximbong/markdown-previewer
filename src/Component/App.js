@@ -3,6 +3,7 @@ import "../App.css";
 import Input from "./Input";
 import Previewer from "./Previewer";
 import defaultText from "./DefaultText";
+import CheatSheet from "./CheatSheet"
 
 class App extends Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class App extends Component {
           <Input onChange={this.handleChange} value={defaultText} />
           <Previewer value={this.state.input} />
         </div>
-        <div className="cheatsheet" />
+        <CheatSheet />
       </div>
     );
   }
