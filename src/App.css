@@ -39,11 +39,11 @@
   border: 1px solid #a9a9a9;
   overflow: scroll;
   background: #f1f1f1;
+  padding:0 10px;
 }
 
 .cheatsheet {
-  flex: 0 1 300px;
-  border: 1px solid #282c34;
+  flex: 0 1 auto;
 }
 
 #previewer code {
@@ -52,4 +52,10 @@
 
 #previewer pre {
   margin: 10px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
 }
